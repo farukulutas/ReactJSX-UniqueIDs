@@ -1,6 +1,9 @@
 # ReactJSX-UniqueIDs
 
-A Python script to automatically add unique IDs to all JSX components in a React project to avoid the "No duplicate props allowed" error. The script searches through all .js and .jsx files in the specified directory, generates a unique string, and adds it as an ID to any component that doesn't already have one. The modified files are then overwritten with the updated content.
+A Python script to automatically add unique IDs to all JSX components in a React project. The script searches through all .js and .jsx files in the specified directory, generates a unique string, and adds it as an ID to any component that doesn't already have one. The modified files are then overwritten with the updated content.
+
+## Why was this project created?
+Automated tests require target components to have a unique ID in order to function correctly. However, there were no existing packages, code, or tools that addressed this need. As a result, this simple script was created.
 
 ## Installation
 
